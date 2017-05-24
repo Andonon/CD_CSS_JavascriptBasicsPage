@@ -1,0 +1,77 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+#background{
+    background-color: #1c345e;
+    height: 800px;
+    width: 1070px;
+    padding: 15px;
+}
+#header{
+    background-color: #ce3036;
+    border-radius: 15px;
+    width: 1025px;
+    color: #c2d6ec;
+    padding: 15px;
+}
+#navigation{
+    background-color: #2a7d8c;
+    color: #62d7e1;
+    font-size: 14;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 180px;
+    height: 250px;
+    margin-top: 25px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    border-radius: 15px;
+}
+#navigation ul{
+    margin-left: 15px;
+}
+#navigation ul ul{
+    margin-left: 30px;
+}
+#main{
+    background-color: #0e1822;
+    width: 780px;
+    height: 570px;
+    padding: 25px;
+    margin: 10px;
+    font-size: 12;
+    display: inline-block;
+    border-radius: 15px;
+    color: #c2d6ec;
+}
+#main h2{
+    font-weight: bold;
+}
+#main li{
+    margin-left: 15px;
+    padding: 5px;
+}
+.type {
+    color: #62d7e1;
+    font-size: 13;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.example {
+    color: #808bf6;
+    font-size: 13;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#footer{
+    background-color: #5e6673;
+    width: 925px;
+    margin-top: 30px;
+    margin-left: -250px;
+    padding: 15px;
+    border-radius: 15px;
+}
